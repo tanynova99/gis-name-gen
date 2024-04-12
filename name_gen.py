@@ -1,7 +1,7 @@
 import random
 import streamlit as st
 
-st.title("Let's generate your variant number:")
+st.title("Let's generate you a number:")
 
 if st.button("Click me!"):
         k = random.randint(1,15)
